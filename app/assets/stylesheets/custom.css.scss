@@ -5,7 +5,7 @@
 }
 
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 #logo {
@@ -21,17 +21,24 @@
   margin-top: 25px;
 }
 
-#jumbotron {
-  background-image: asset-url('typewriter.jpg');
+.jumbotron {
+  background-image: asset-url('jumbo-copy.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  height: 425px;
 }
-
-/* Sticky Footer Classes */
 
 html,
 body {
   height: 100%;
 }
 
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
